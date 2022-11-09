@@ -1,0 +1,12 @@
+html {
+    max-width: 400px;
+    margin: auto;
+}
+
+table, tr, th, td, caption {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1rem; 
+
+}
