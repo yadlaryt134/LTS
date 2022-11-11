@@ -1,9 +1,16 @@
 * {
-    background: rgb(247, 243, 237);
+    max-width: 300px;
+    margin-right: auto;
+    background: #f7f3ed;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin:auto;
 }
 
 html {
-    max-width: 400px;
     margin: auto;
 }
 
@@ -14,3 +21,41 @@ table, tr, th, td, caption {
     padding: 1rem; 
 
 }
+
+ul {
+
+    font-size: 1rem;
+    padding-left: 0;
+    list-style-type: none;
+    text-align: center;
+    /* width uses the whole width of the element */
+    width: 100%;
+    background-color: black;
+
+}
+
+li {
+    display: inline;
+    
+}
+
+.black {
+    background-color: black;
+
+}
+
+li a {
+    text-decoration: none;
+    color: white; 
+    background-color: black;
+}
+
+figure {
+    /* margin: auto pretty much centers the element */
+    margin: auto;
+
+}
+
+
+
+
